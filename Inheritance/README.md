@@ -26,13 +26,14 @@ A Student class constructor, which has  parameters:
 3. An integer, idNumber.
 4. An integer array (or vector) of test scores, scores .
 A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:
-Grading Scale Letter to Average(a)
-O for a>= 90 && a<=100
-E for a>= 80 && a<90
-A for a>= 70 && a<80
-P for a>= 55 && a<70
-D for a>= 40 && a<55
-T for a<40
+
+#### Grading Scale Letter to Average(a)
+- O for a>= 90 && a<=100
+- E for a>= 80 && a<90
+- A for a>= 70 && a<80
+- P for a>= 55 && a<70
+- D for a>= 40 && a<55
+- T for a<40
 
 ### Input Format
 
