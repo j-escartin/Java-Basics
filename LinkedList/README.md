@@ -1,6 +1,6 @@
 # Index
 
-## HackerRank 30 Day Code Challenge Day 6
+## HackerRank 30 Day Code Challenge Day 15
 
 HackerRank is a technology company that provides a platform for competitive programming challenges and technical interviews. 
 It was founded in 2009 and is headquartered in Mountain View, California.
@@ -16,31 +16,20 @@ It was founded in 2009 and is headquartered in Mountain View, California.
 
 ### Problem
 
-You are given two classes, Person and Student, where Person is the base class and Student is the derived class. Completed code for Person and a declaration for Student are provided for you in the editor. Observe that Student inherits all the properties of Person.
+A Node class is provided for you in the editor. A Node object has an integer data field, data, and a Node instance pointer, next , pointing to another node (i.e.: the next node in the list).
 
-Complete the Student class by writing the following:
+A Node insert function is also declared in your editor. It has two parameters: a pointer, head, pointing to the first node of a linked list, and an integer, data, that must be added to the end of the list as a new Node object.
 
-A Student class constructor, which has  parameters:
-1. A string, firstName .
-2. A string, lastName.
-3. An integer, idNumber.
-4. An integer array (or vector) of test scores, scores .
-A char calculate() method that calculates a Student object's average and returns the grade character representative of their calculated average:
+### Task
+Complete the insert function in your editor so that it creates a new Node (pass data as the Node constructor argument) and inserts it at the tail of the linked list referenced by the  head parameter. Once the new node is added, return the reference to the head  node.
 
-#### Grading Scale Letter to Average(a)
-- O for a>= 90 && a<=100
-- E for a>= 80 && a<90
-- A for a>= 70 && a<80
-- P for a>= 55 && a<70
-- D for a>= 40 && a<55
-- T for a<40
+Note: The head  argument is null for an empty list.
 
 ### Input Format
 
-The locked stub code in the editor reads the input and calls the Student class constructor with the necessary arguments. It also calls the calculate method which takes no arguments.
-
-The first line contains firstName, lastName, and idNumber, separated by a space. The second line contains the number of test scores. The third line of space-separated integers describes scores.
+The first line contains T, the number of elements to insert.
+Each of the next T lines contains an integer to insert at the end of the list.
 
 ### Output Format
 
-Output is handled by the locked stub code. Your output will be correct if your Student class constructor and calculate() method are properly implemented.
+Return a reference to the  head node of the linked list.
