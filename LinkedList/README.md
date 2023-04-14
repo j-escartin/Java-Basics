@@ -1,4 +1,4 @@
-# Index
+# LinkedList
 
 ## HackerRank 30 Day Code Challenge Day 15
 
