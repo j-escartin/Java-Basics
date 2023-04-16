@@ -1,6 +1,6 @@
-# Loop
+# More Exceptions
 
-## HackerRank 30 Day Code Challenge Day 5
+## HackerRank 30 Day Code Challenge Day 17
 
 HackerRank is a technology company that provides a platform for competitive programming challenges and technical interviews. 
 It was founded in 2009 and is headquartered in Mountain View, California.
