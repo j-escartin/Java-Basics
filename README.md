@@ -1,2 +1,2 @@
 # Java-Basics
-Daily Practice on Java
+Java Overview and Topics
